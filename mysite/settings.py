@@ -85,7 +85,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Views'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -148,4 +148,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/css',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images/icons'
+]
+STATIC_URL = '/Views/'
