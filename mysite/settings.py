@@ -151,6 +151,21 @@ USE_TZ = True
 STATICFILES_DIRS = [
     'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views',
     'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/css',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images/icons'
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images/icons',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/fonts',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/js',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/vendor/jquery',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/vendor',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/fonts/font-awesome-4.7.0',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/animate',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/bootstrap/css',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/bootstrap/js',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/css-hamburgers',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/jquery',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/select2',
+    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/tilt'
+
+
 ]
 STATIC_URL = '/Views/'
