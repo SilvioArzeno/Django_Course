@@ -149,22 +149,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATICFILES_DIRS = [
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/css',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images/icons',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/fonts',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/images',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/js',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/vendor/jquery',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_Course/Views/vendor',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/fonts/font-awesome-4.7.0',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/animate',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/bootstrap/css',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/bootstrap/js',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/css-hamburgers',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/jquery',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/select2',
-    'C:/Users/Silvio Arzeno/source/repos/Django/Tutor.me/Django_CourseViews/vendor/tilt'
+    'Views',
+    'Views/css',
+    'Views/images/icons',
+    'Views/fonts',
+    'Views/images',
+    'Views/js',
+    'Views/vendor/jquery',
+    'Views/vendor',
+    'Views/fonts/font-awesome-4.7.0',
+    'Views/vendor/animate',
+    'Views/vendor/bootstrap/css',
+    'Views/vendor/bootstrap/js',
+    'Views/vendor/css-hamburgers',
+    'Views/vendor/jquery',
+    'Views/vendor/select2',
+    'Views/vendor/tilt'
 
 
 ]
