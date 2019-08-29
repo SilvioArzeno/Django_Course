@@ -14,9 +14,16 @@ def single_slug(request, single_slug):
     categories = [c.category_slug for c in TutorialCategory.objects.all()]
 
     if single_slug in categories:
-        return HttpResponse(f"{single_slug} is a category!!!")
+        matching_series = TutorialSeries.objects.filter(tutorial_category__category_slug = single_slug)
 
-    tutorials = [c.category_slug for c in Tutorial.objects.all()]
+        series_urls = {}
+        for m in matching_series.all():
+            part_one = Tutorial.objects.filter(tutorial_series__tutorial_series = m.tutorial_series).earliest("tutorial_published")
+            series_urls[m] = part_one.tutorial_slug
+
+        return render(request, "main/category.html", {"part_ones": series_urls})
+
+    tutorials = [c.tutorial_slug for c in Tutorial.objects.all()]
 
     if single_slug in tutorials:
         return HttpResponse(f"{single_slug} is a tutorial!!!")
@@ -28,7 +35,7 @@ def single_slug(request, single_slug):
 
 
 def homepage(request):
-    return render(request=request, template_name="main/home.html", context={"tutorials":Tutorial.objects.all})
+    return render(request=request, template_name="main/categories.html", context={"categories":TutorialCategory.objects.all})
 
 
 def register(request):
